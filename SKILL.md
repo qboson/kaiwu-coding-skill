@@ -11,6 +11,7 @@ description: "使用 QBoson Kaiwu SDK（Enterprise/Community）将组合优化�
 未安装时使用目标环境的 `python -m pip install kaiwu`（Enterprise）或
 `python -m pip install kaiwu-community`（仅建模）。二者导入名都为 `kaiwu`。
 本地 Enterprise 求解需要已有授权；云端 CIM 只在用户要求且提供凭据时使用。
+通过本 skill 调用真机时，`task_name` 必须以 `kaiwu_skill` 开头，例如 `kaiwu_skill_tsp`。
 
 ## 先保证模型等价
 
