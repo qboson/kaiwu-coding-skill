@@ -6,14 +6,14 @@
 
 ## 适用场景
 
-- **组合优化建模**：选址、调度、路径规划、覆盖、布尔规则、Max-Cut 等问题。
-- **约束处理**：等式、不等式、松弛变量、硬约束罚系数与带权软规则。
-- **SDK 代码开发与修复**：模型构建、QUBO / Ising 转换、求解器调用和候选解码。
-- **版本迁移**：区分 Enterprise 1.3.1、1.4.0 与 Community 的接口和能力。
-- **结果校验**：从候选决策重新计算业务目标和全部约束，区分业务成本与求解能量。
+- **组合优化建模**：选址、调度、路径规划、覆盖、布尔规则、Max-Cut 等问题；
+- **约束处理**：等式、不等式、松弛变量、硬约束罚系数与带权软规则；
+- **SDK 代码开发与修复**：模型构建、QUBO / Ising 转换、求解器调用和候选解码；
+- **版本迁移**：区分 Enterprise 1.3.1、1.4.0 与 Community 的接口和能力；
+- **结果校验**：从候选决策重新计算业务目标和全部约束，区分业务成本与求解能量；
 - **专题问题**：精度适配、高阶项降阶，以及离散决策与连续子问题的协同处理。
 
-PyTorch 能量模型以及 RBM / BM / DBN、QVAE、QDiffusion 不属于 `kaiwu-coding-skill` 的适用范围，应使用独立的 `kpp-coding-skill`。
+PyTorch 能量模型以及 RBM / BM / DBN、Q-VAE、Q-Diffusion 不属于 `kaiwu-coding-skill` 的适用范围，应使用独立的 `kpp-coding-skill`。
 
 ## 快速开始
 
@@ -89,7 +89,7 @@ kaiwu-coding-skill/
 | SDK 示例 | [examples.md](references/examples.md) |
 | 精度处理 | [precision.md](references/docs/precision.md) |
 
-参考资料包含不同版本的接口和历史示例。使用前应核对目标 SDK 版本；从 1.3.x 迁移到 1.4.x 时，请按 `SKILL.md` 中的版本对照更新导入与调用。
+参考资料包含不同版本的接口和历史示例，使用前应核对目标 SDK 版本；从 1.3.x 迁移到 1.4.x 时，请按 `SKILL.md` 中的版本对照更新导入与调用。
 
 ## 维护与反馈
 
